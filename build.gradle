@@ -4,7 +4,49 @@ plugins {
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
 }
+ext {
+    // Группа мода
+    mod_group_id = 'com.korrona.tpsultimate'
 
+    // Версия Minecraft
+    minecraft_version = '1.20.1'
+
+    // Версия Forge
+    forge_version = '47.1.0'
+
+    // ID мода
+    mod_id = 'tpsultimate'
+
+    // Название мода
+    mod_name = 'TPS Ultimate'
+
+    // Версия мода
+    mod_version = '1.0.0'
+
+    // Описание мода
+    mod_description = 'A mod to display TPS and MSPT in the tab list.'
+
+    // Авторы мода
+    mod_authors = 'Korrona'
+
+    // Лицензия
+    mod_license = 'MIT'
+
+    // Канал маппингов
+    mapping_channel = 'official'
+
+    // Версия маппингов
+    mapping_version = '1.20.1'
+
+    // Диапазон версий Forge
+    forge_version_range = "[${forge_version},)"
+
+    // Диапазон версий Minecraft
+    minecraft_version_range = "[${minecraft_version}]"
+
+    // Диапазон версий загрузчика
+    loader_version_range = "[47,)"
+}
 version = mod_version
 group = mod_group_id
 
