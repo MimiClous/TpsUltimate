@@ -13,7 +13,7 @@
 ---
 
 ## Установка
-1. Скачайте JAR-файл из раздела [Releases](https://github.com/TpsUltimate/releases).
+1. Скачайте JAR-файл из раздела [Releases](https://github.com/MimiClous/TpsUltimate/releases).
 2. Поместите файл в папку `mods` вашего клиента или сервера Minecraft.
 3. Запустите игру или сервер.
 
